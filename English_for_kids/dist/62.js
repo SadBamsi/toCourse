@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[62],{67:function(p,n,a){p.exports=a.p+"static/media/skating.2a830512.mp3"}}]);

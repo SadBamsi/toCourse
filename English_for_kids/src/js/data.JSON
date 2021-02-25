@@ -1,0 +1,122 @@
+[{
+    "theme": "Main Page",
+    "cards": [
+     "food", "vegetables", "clothes", "sport", "animal (Set A)", "animal (Set B)", "hobby", "emotions"
+    ]
+  },
+  {
+    "theme": "food",
+    "cards": {
+      "noodles": "Макароны",
+      "pancakes": "Блины",
+      "soup" : "Суп",
+      "cheese" : "сыр" ,
+      "ham" : "ветчина",
+      "eggs" : "яйца",
+      "flakes" : "хлопья",
+      "cookies" : "печенье",
+      "sausage" : "сосиска",
+      "pie" : "пирог"
+    } 
+  },
+  {
+    "theme": "vegetables",
+    "cards": {
+      "potato": "Картофель",
+      "onion": "Лук",
+      "carrot" : "Морковь",
+      "cabbage" : "Капуста",
+      "garlic" : "Чеснок",
+      "cucumber" : "Огурец",
+      "tomato" : "Помидор",
+      "peas" : "Горох",
+      "corn" : "Кукуруза",
+      "beet" : "Свекла"
+    }
+  },
+  {
+    "theme": "clothes",
+    "cards": {
+      "costume":"костюм",
+      "shirt":"рубашка",
+      "skirt":"юбка",
+      "necktie":"галстук",
+      "button":"пуговица",
+      "hat":"шляпа",
+      "pants":"штаны",
+      "shoes":"обувь",
+      "scarf":"шарф",
+      "gloves":"перчатки"
+    }
+  },
+  {
+    "theme": "sport",
+    "cards": {
+      "football": "футбол",
+      "boating": "гребля",
+      "swimming": "плавание",
+      "weightlifting": "тяжёлая атлетика",
+      "ping-pong": "настольный теннис",
+      "skating": "катание на коньках",
+      "skiing": "лыжный спорт",
+      "dodgeball": "вышибалы"
+    }
+  },
+  {
+    "theme": "animal (Set A)",
+    "cards": {
+      "dog": "собака",
+      "cat": "кот",
+      "mouse": "мышь",
+      "goose": "гусь",
+      "pig": "свинья",
+      "horse": "лошадь",
+      "sheep": "овца",
+      "cow": "корова",
+      "chicken": "курица",
+      "donkey": "осёл"
+    }
+  },
+  {
+    "theme": "animal (Set B)",
+    "cards": {
+      "frog" : "лягушка",
+      "lion" : "лев",
+      "turtle" : "черепаха",
+      "snake" : "змея",
+      "squirrel" : "белка",
+      "owl" : "сова",
+      "rabbit" : "кролик",
+      "fish" : "рыба",
+      "spider" : "паук",
+      "bee" : "пчела"
+    }
+  },
+  {
+    "theme": "hobby",
+    "cards": {
+      "fishing" : "рыбалка", 
+      "reading" : "чтение", 
+      "modeling" : "моделирование", 
+      "dancing" : "танцы", 
+      "tourism" : "туризм", 
+      "drawing" : "рисование", 
+      "knitting" : "вязание", 
+      "sewing" : "шитьё", 
+      "cycling" : "катание на велосипеде" 
+    }
+  },
+  {
+    "theme": "emotions",
+    "cards": {
+      "angry": "Злой",
+      "happy": "Счастливый",
+      "scared": "Испуганный",
+      "sad": "Грустный",
+      "tired": "Сонный",
+      "sick": "Больной",
+      "surprised": "Удивлённый",
+      "sleeping": "спящий"
+    }
+  }
+]

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{17:function(p,c,n){p.exports=n.p+"static/media/corn.c5ced976.mp3"}}]);

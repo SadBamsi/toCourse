@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[72],{77:function(p,e,i){p.exports=i.p+"static/media/tired.794ef3e8.mp3"}}]);

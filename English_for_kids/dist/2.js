@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{7:function(p,e,n){p.exports=n.p+"static/media/bee.25117217.mp3"}}]);

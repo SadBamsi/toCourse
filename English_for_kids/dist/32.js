@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[32],{37:function(p,a,n){p.exports=n.p+"static/media/ham.4a2ac762.mp3"}}]);

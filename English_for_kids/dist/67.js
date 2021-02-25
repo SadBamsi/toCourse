@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[67],{72:function(p,o,e){p.exports=e.p+"static/media/soup.ef65cef8.mp3"}}]);

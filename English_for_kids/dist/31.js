@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{36:function(o,p,n){o.exports=n.p+"static/media/goose.83c67850.mp3"}}]);

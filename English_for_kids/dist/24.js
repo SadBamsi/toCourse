@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{29:function(p,i,n){p.exports=n.p+"static/media/fish.66e32f14.mp3"}}]);

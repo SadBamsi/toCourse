@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{27:function(p,n,o){p.exports=o.p+"static/media/eggs.d893af73.mp3"}}]);

@@ -1,0 +1,176 @@
+h1, h2, h3, h4, h5, h6, ul { margin: 0; padding: 0; }
+
+body {
+  font-family: 'Quicksand', sans-serif; 
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-orient: vertical; 
+  -webkit-box-direction: normal; 
+  -ms-flex-direction: column; 
+  flex-direction: column; 
+  -webkit-box-align: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  -webkit-box-pack: center; 
+  -ms-flex-pack: center; 
+  justify-content: center; 
+  text-align: center; 
+  background-size: cover; 
+  color: #000000;
+  margin: 0; 
+  padding: 0; 
+}
+.momentum {
+  padding: 3%;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+  max-height: 100vh; 
+  min-height: 100vh; 
+  min-width: 100vw; 
+  max-width: 100vw; 
+  background-size: cover;
+  -webkit-transition: background-image 1s ease-in-out .1s; 
+  transition: background-image 1s ease-in-out .1s; 
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-orient: vertical; 
+  -webkit-box-direction: normal; 
+  -ms-flex-direction: column; 
+  flex-direction: column; 
+  -webkit-box-align: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  -webkit-box-pack: center; 
+  -ms-flex-pack: center; 
+  justify-content: center; 
+
+  &_weather { 
+    font-size: 20px; 
+    text-shadow: 1px 1px 1px #000; 
+    color: #fff; 
+    border: 1px solid #fff; 
+    outline: 1px solid #000; 
+    padding: 10px; 
+    margin-bottom: 1rem; 
+  }
+  &_general-greeting { 
+    text-transform: uppercase; 
+    text-align: center; 
+  }
+  &_name { 
+    background-color: transparent; 
+    font-size: 30px; 
+    border: none; 
+    text-shadow: 1px 1px 1px #000; 
+    color: inherit; 
+    display: inline-block; 
+    min-width: 1px; 
+  }
+  &_time { 
+    font-size: 6rem; 
+    color: #fff; 
+    text-shadow: 1px 1px 1px #000; 
+    margin-bottom: 10px; 
+  }
+  &_btn {
+    display: inline-block;
+    padding: 0; 
+    text-align: center; 
+    width: 50px; 
+    height: 50px; 
+    border: none; 
+    border-radius: 50%; 
+    background: #f3f3f3 url("./assets/images/icon/right-chevron.svg")  center no-repeat; 
+    background-size: 15px; 
+  }
+  &_btn:focus { 
+    border: none; 
+    outline: none; 
+  }
+  &_btn--disabled { 
+    opacity: 0.5; 
+  }
+  &_focus { 
+    margin-bottom: 1rem; 
+  }
+  &_quest, &_focus, &_general-date, &_general-greeting, &_quote blockquote, &_quote figcaption { 
+    font-size: 28px; 
+    text-shadow: 1px 1px 1px #000; 
+    color: #fff; 
+  }
+  &_quote { 
+    margin-bottom: 1rem; 
+    font-size: 20px; 
+  }
+}
+h1 { 
+  margin-bottom: 1rem; 
+}
+
+h2 { 
+  margin-bottom: 0.5rem; 
+  opacity: 0.8; 
+}
+
+@media (max-width: 320px) {
+  .momentum { 
+    padding: 10px; 
+    &_quest, &_focus, &_general-date, &_general-greeting, &_name, &_quote blockquote, &_quote figcaption { 
+      font-size: 14px; 
+    }
+    &_quote { 
+      margin: 0; 
+      margin-bottom: 10px; 
+    }
+    &_weather { 
+      font-size: 14px;
+      padding: 10px;
+    }
+    &_time { 
+      font-size: 25px; 
+    } 
+  }
+}
+@media (min-width: 321px) and (max-width: 768px) { 
+  .momentum {
+    &_time { 
+      font-size: 2rem; 
+    }
+    &_quest, &_focus, &_general-date, &_general-greeting, &_name, &_quote blockquote, &_quote figcaption { 
+      font-size: 20px; 
+      text-shadow: 1px 1px 1px #000; 
+      color: #fff; 
+    }
+    &_quote { 
+      margin: 0; 
+      margin-bottom: 10px; 
+    }
+    &_weather { 
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .momentum {
+    &_time { 
+      font-size: 5rem; 
+    }
+    &_quest, &_focus, &_general-date, &_general-greeting, &_name, &_quote blockquote, &_quote figcaption { 
+      font-size: 24px; 
+      text-shadow: 1px 1px 1px #000; 
+      color: #fff; 
+    }
+    &_quote { 
+      margin: 0; 
+      margin-bottom: 10px; 
+    }
+    &_weather { 
+      font-size: 24px;
+      padding: 10px;
+    }
+  }
+}

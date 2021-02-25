@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[50],{55:function(p,o,n){p.exports=n.p+"static/media/potato.d23c80bf.mp3"}}]);
